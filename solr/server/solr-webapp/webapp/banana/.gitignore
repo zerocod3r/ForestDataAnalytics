@@ -1,0 +1,11 @@
+node_modules
+.aws-config.json
+bower_components
+npm-debug.log
+tmp/
+build.number
+build/
+dist
+*.iml
+.vscode
+.idea

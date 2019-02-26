@@ -1,0 +1,14 @@
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js"></script>
+
+  <script>
+    var utm = "+proj=utm +zone=35";
+    var wgs84 = "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs";
+    console.log(proj4(utm,wgs84,[240576.8787, 6654486.4370]));
+  </script>
+</head>
+<body>
+
+</body>
+</html>

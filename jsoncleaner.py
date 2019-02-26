@@ -1,5 +1,12 @@
+# Python Code for parsing json data in files stored in ~\DataSets\ folder.
+# To manually parse a file, add it to ~\DataSets\ folder and edit line - 25.
+# For our purpose we are only picking up few keys from raw json data for 
+# better visualisation. 
+
+
+
 from bs4 import BeautifulSoup
-import requests,json
+import requests,json,os
 from geopy.geocoders import Nominatim
 import time
 
@@ -18,13 +25,15 @@ def locationGetter(latutm,longutm):
     #print(location.address)
     return location,latitude,longitude
 
-# Add dataset file name here
-data = json.load(open("DataSets/S.json"))
+
+
+rawjsonfile = open("DataSets/S.json")   # Add dataset file name here
+data = json.load(rawjsonfile)
 
 dm = data['ForestPropertyData']['Stands']['Stand']
 finaldata = []
 area = []
-op = open("jsondataB.json","a")
+op = open("parsedData/jsondata" + os.path.basename(rawjsonfile.name),"a")   # Data stored in parsedData folder
 op.write('[\n')
 for fdat in dm:
     try:
