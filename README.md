@@ -25,6 +25,7 @@ Ground Assist uses a number of open source projects to work properly.
 
 ### <a name="how-to-run"></a>How to run
 Ground Assist requires [Python3](https://www.python.org/downloads/) to run.
+
 DataSets folder contains files downloaded from https://www.metsaan.fi/paikkatietoaineistot containing raw json data
 
 
@@ -38,7 +39,8 @@ Install the dependencies.
 $ pip3 install bs4
 $ pip3 install geopy
 ```
-Edit this file ```location-plotter/gassist/templates/index.html``` and add your Google Maps API key 
+Edit this file ```location-plotter/gassist/templates/index.html``` and add your Google Maps API key
+
 Run solr server and django server with ```start-server.py``` file
 ```sh
 $ py start-server.py
