@@ -1,81 +1,71 @@
-2019-02-26 13:30:22.304 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
-2019-02-26 13:30:23.089 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.2.1
-2019-02-26 13:30:23.090 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
-2019-02-26 13:30:23.090 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\projects\ForestDataAnalytics\solr
-2019-02-26 13:30:23.104 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-02-26T13:30:23.091Z
-2019-02-26 13:30:23.105 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
-2019-02-26 13:30:23.121 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: D:\projects\ForestDataAnalytics\solr\server\solr
-2019-02-26 13:30:23.126 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\projects\ForestDataAnalytics\solr\server\solr\solr.xml
-2019-02-26 13:30:23.815 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath D:\projects\ForestDataAnalytics\solr\server\solr
-2019-02-26 13:30:23.817 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [banana-int, forest-new, forestdata]
-2019-02-26 13:30:23.822 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
-2019-02-26 13:30:23.935 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrResourceLoader [forest-new] Added 53 libs to classloader, from paths: [/D:/projects/ForestDataAnalytics/solr/contrib/clustering/lib, /D:/projects/ForestDataAnalytics/solr/contrib/extraction/lib, /D:/projects/ForestDataAnalytics/solr/contrib/langid/lib, /D:/projects/ForestDataAnalytics/solr/contrib/velocity/lib, /D:/projects/ForestDataAnalytics/solr/dist]
-2019-02-26 13:30:23.964 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrResourceLoader [forestdata] Added 53 libs to classloader, from paths: [/D:/projects/ForestDataAnalytics/solr/contrib/clustering/lib, /D:/projects/ForestDataAnalytics/solr/contrib/extraction/lib, /D:/projects/ForestDataAnalytics/solr/contrib/langid/lib, /D:/projects/ForestDataAnalytics/solr/contrib/velocity/lib, /D:/projects/ForestDataAnalytics/solr/dist]
-2019-02-26 13:30:23.973 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
-2019-02-26 13:30:23.982 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
-2019-02-26 13:30:24.210 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema [banana-int] Schema name=banana-int
-2019-02-26 13:30:24.255 WARN  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieLongField]. Please consult documentation how to replace it accordingly.
-2019-02-26 13:30:24.317 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema Loaded schema banana-int/1.5 with uniqueid field id
-2019-02-26 13:30:24.318 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.CoreContainer Creating SolrCore 'banana-int' using configuration from instancedir D:\projects\ForestDataAnalytics\solr\server\solr\banana-int, trusted=true
-2019-02-26 13:30:24.346 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
-2019-02-26 13:30:24.348 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
-2019-02-26 13:30:24.454 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
-2019-02-26 13:30:24.462 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore [[banana-int] ] Opening new SolrCore at [D:\projects\ForestDataAnalytics\solr\server\solr\banana-int], dataDir=[D:\projects\ForestDataAnalytics\solr\server\solr\banana-int\data\]
-2019-02-26 13:30:24.541 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema [forest-new] Schema name=default-config
-2019-02-26 13:30:24.563 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema [forestdata] Schema name=default-config
-2019-02-26 13:30:24.836 INFO  (main) [   ] o.e.j.s.Server Started @3479ms
-2019-02-26 13:30:25.187 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2019-02-26 13:30:25.188 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2019-02-26 13:30:25.225 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
-2019-02-26 13:30:25.226 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2019-02-26 13:30:25.427 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
-2019-02-26 13:30:25.438 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
-2019-02-26 13:30:25.541 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.CoreContainer Creating SolrCore 'forestdata' using configuration from instancedir D:\projects\ForestDataAnalytics\solr\server\solr\forestdata, trusted=true
-2019-02-26 13:30:25.541 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
-2019-02-26 13:30:25.542 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore [[forestdata] ] Opening new SolrCore at [D:\projects\ForestDataAnalytics\solr\server\solr\forestdata], dataDir=[D:\projects\ForestDataAnalytics\solr\server\solr\forestdata\data\]
-2019-02-26 13:30:25.546 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.SolrIndexSearcher Opening [Searcher@6a304b0f[banana-int] main]
-2019-02-26 13:30:25.561 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.CoreContainer Creating SolrCore 'forest-new' using configuration from instancedir D:\projects\ForestDataAnalytics\solr\server\solr\forest-new, trusted=true
-2019-02-26 13:30:25.562 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
-2019-02-26 13:30:25.562 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore [[forest-new] ] Opening new SolrCore at [D:\projects\ForestDataAnalytics\solr\server\solr\forest-new], dataDir=[D:\projects\ForestDataAnalytics\solr\server\solr\forest-new\data\]
-2019-02-26 13:30:25.562 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
-2019-02-26 13:30:25.581 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\ForestDataAnalytics\solr\server\solr\banana-int\conf
-2019-02-26 13:30:25.590 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
-2019-02-26 13:30:25.612 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
-2019-02-26 13:30:25.779 INFO  (searcherExecutor-7-thread-1-processing-x:banana-int) [   x:banana-int] o.a.s.c.SolrCore [banana-int] Registered new searcher Searcher@6a304b0f[banana-int] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_v(7.2.1):C1)))}
-2019-02-26 13:30:25.810 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2019-02-26 13:30:25.810 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2019-02-26 13:30:25.814 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
-2019-02-26 13:30:25.814 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2019-02-26 13:30:25.855 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2019-02-26 13:30:25.856 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2019-02-26 13:30:25.862 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
-2019-02-26 13:30:25.863 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2019-02-26 13:30:25.875 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.SolrIndexSearcher Opening [Searcher@2bee5a4a[forestdata] main]
-2019-02-26 13:30:25.876 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\ForestDataAnalytics\solr\server\solr\forestdata\conf
-2019-02-26 13:30:25.876 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.SolrIndexSearcher Opening [Searcher@6a2d6821[forest-new] main]
-2019-02-26 13:30:25.877 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\ForestDataAnalytics\solr\server\solr\forest-new\conf
-2019-02-26 13:30:25.877 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
-2019-02-26 13:30:25.878 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
-2019-02-26 13:30:25.888 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-2019-02-26 13:30:25.888 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-2019-02-26 13:30:25.903 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
-2019-02-26 13:30:25.906 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
-2019-02-26 13:30:25.909 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2bee5a4a[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
-2019-02-26 13:30:25.909 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener done.
-2019-02-26 13:30:25.909 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
-2019-02-26 13:30:25.910 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.SolrCore [forestdata] Registered new searcher Searcher@2bee5a4a[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
-2019-02-26 13:30:25.911 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6a2d6821[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
-2019-02-26 13:30:25.911 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener done.
-2019-02-26 13:30:25.911 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
-2019-02-26 13:30:25.914 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.SolrCore [forest-new] Registered new searcher Searcher@6a2d6821[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
-2019-02-26 13:30:29.787 INFO  (qtp959447386-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=24
-2019-02-26 13:30:36.918 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1360657223
-2019-02-26 13:30:36.919 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
-2019-02-26 13:30:36.919 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
-2019-02-26 13:30:36.919 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
-2019-02-26 13:30:36.920 INFO  (coreCloseExecutor-22-thread-1) [   x:banana-int] o.a.s.c.SolrCore [banana-int]  CLOSING SolrCore org.apache.solr.core.SolrCore@508fbb64
-2019-02-26 13:30:36.920 INFO  (coreCloseExecutor-22-thread-2) [   x:forestdata] o.a.s.c.SolrCore [forestdata]  CLOSING SolrCore org.apache.solr.core.SolrCore@729962ca
-2019-02-26 13:30:36.921 INFO  (coreCloseExecutor-22-thread-2) [   x:forestdata] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.forestdata, tag=1922654922
-2019-02-26 13:30:36.921 INFO  (coreCloseExecutor-22-thread-3) [   x:forest-new] o.a.s.c.SolrCore [forest-new]  CLOSING SolrCore org.apache.solr.core.SolrCore@22e6cf5d
-2019-02-26 13:30:36.921 INFO  (coreCloseExecutor-22-thread-1) [   x:banana-int] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.banana-int, tag=1351596900
-2019-02-26 13:30:36.921 INFO  (coreCloseExecutor-22-thread-3) [   x:forest-new] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.forest-new, tag=585551709
+2019-02-25 14:24:43.474 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2019-02-25 14:24:44.263 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.2.1
+2019-02-25 14:24:44.263 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-02-25 14:24:44.263 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1
+2019-02-25 14:24:44.279 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-02-25T14:24:44.265Z
+2019-02-25 14:24:44.280 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2019-02-25 14:24:44.300 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr
+2019-02-25 14:24:44.306 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\solr.xml
+2019-02-25 14:24:45.006 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr
+2019-02-25 14:24:45.007 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [banana-int, forest-new, forestdata]
+2019-02-25 14:24:45.014 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-02-25 14:24:45.146 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrResourceLoader [forest-new] Added 53 libs to classloader, from paths: [/D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/clustering/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/extraction/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/langid/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/velocity/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/dist]
+2019-02-25 14:24:45.147 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2019-02-25 14:24:45.149 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
+2019-02-25 14:24:45.163 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrResourceLoader [forestdata] Added 53 libs to classloader, from paths: [/D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/clustering/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/extraction/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/langid/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/velocity/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/dist]
+2019-02-25 14:24:45.353 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema [banana-int] Schema name=banana-int
+2019-02-25 14:24:45.471 WARN  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieLongField]. Please consult documentation how to replace it accordingly.
+2019-02-25 14:24:45.487 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema Loaded schema banana-int/1.5 with uniqueid field id
+2019-02-25 14:24:45.487 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.CoreContainer Creating SolrCore 'banana-int' using configuration from instancedir D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\banana-int, trusted=true
+2019-02-25 14:24:45.530 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
+2019-02-25 14:24:45.558 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
+2019-02-25 14:24:45.612 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2019-02-25 14:24:45.625 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore [[banana-int] ] Opening new SolrCore at [D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\banana-int], dataDir=[D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\banana-int\data\]
+2019-02-25 14:24:45.736 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema [forestdata] Schema name=default-config
+2019-02-25 14:24:45.781 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema [forest-new] Schema name=default-config
+2019-02-25 14:24:46.112 INFO  (main) [   ] o.e.j.s.Server Started @3641ms
+2019-02-25 14:24:46.471 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-02-25 14:24:46.471 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-02-25 14:24:46.507 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2019-02-25 14:24:46.507 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-02-25 14:24:46.717 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-02-25 14:24:46.744 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-02-25 14:24:46.810 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.SolrIndexSearcher Opening [Searcher@6da526ce[banana-int] main]
+2019-02-25 14:24:46.834 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.CoreContainer Creating SolrCore 'forest-new' using configuration from instancedir D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forest-new, trusted=true
+2019-02-25 14:24:46.836 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\banana-int\conf
+2019-02-25 14:24:46.836 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.CoreContainer Creating SolrCore 'forestdata' using configuration from instancedir D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forestdata, trusted=true
+2019-02-25 14:24:46.836 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2019-02-25 14:24:46.836 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore [[forestdata] ] Opening new SolrCore at [D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forestdata], dataDir=[D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forestdata\data\]
+2019-02-25 14:24:46.842 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2019-02-25 14:24:46.842 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore [[forest-new] ] Opening new SolrCore at [D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forest-new], dataDir=[D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forest-new\data\]
+2019-02-25 14:24:46.868 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-02-25 14:24:46.868 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-02-25 14:24:46.873 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-02-25 14:24:47.027 INFO  (searcherExecutor-7-thread-1-processing-x:banana-int) [   x:banana-int] o.a.s.c.SolrCore [banana-int] Registered new searcher Searcher@6da526ce[banana-int] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_v(7.2.1):C1)))}
+2019-02-25 14:24:47.159 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-02-25 14:24:47.159 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-02-25 14:24:47.162 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2019-02-25 14:24:47.162 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-02-25 14:24:47.171 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-02-25 14:24:47.171 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-02-25 14:24:47.174 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2019-02-25 14:24:47.175 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-02-25 14:24:47.232 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.SolrIndexSearcher Opening [Searcher@58b82039[forest-new] main]
+2019-02-25 14:24:47.233 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forest-new\conf
+2019-02-25 14:24:47.234 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-02-25 14:24:47.236 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.SolrIndexSearcher Opening [Searcher@2fd99c25[forestdata] main]
+2019-02-25 14:24:47.237 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forestdata\conf
+2019-02-25 14:24:47.237 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-02-25 14:24:47.242 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-02-25 14:24:47.243 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-02-25 14:24:47.260 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-02-25 14:24:47.262 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-02-25 14:24:47.266 INFO  (searcherExecutor-12-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@58b82039[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
+2019-02-25 14:24:47.266 INFO  (searcherExecutor-12-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-02-25 14:24:47.266 INFO  (searcherExecutor-12-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-02-25 14:24:47.267 INFO  (searcherExecutor-12-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.SolrCore [forest-new] Registered new searcher Searcher@58b82039[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
+2019-02-25 14:24:47.267 INFO  (searcherExecutor-13-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2fd99c25[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
+2019-02-25 14:24:47.267 INFO  (searcherExecutor-13-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-02-25 14:24:47.267 INFO  (searcherExecutor-13-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-02-25 14:24:47.268 INFO  (searcherExecutor-13-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.SolrCore [forestdata] Registered new searcher Searcher@2fd99c25[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
+2019-02-25 14:24:50.952 INFO  (qtp959447386-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=17

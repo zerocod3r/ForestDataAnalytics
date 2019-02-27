@@ -1,142 +1,255 @@
-2019-02-27 10:07:09.190 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
-2019-02-27 10:07:10.195 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.2.1
-2019-02-27 10:07:10.197 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
-2019-02-27 10:07:10.197 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\projects\ForestDataAnalytics\solr
-2019-02-27 10:07:10.276 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-02-27T10:07:10.200Z
-2019-02-27 10:07:10.277 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
-2019-02-27 10:07:10.405 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: D:\projects\ForestDataAnalytics\solr\server\solr
-2019-02-27 10:07:10.418 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\projects\ForestDataAnalytics\solr\server\solr\solr.xml
-2019-02-27 10:07:12.001 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath D:\projects\ForestDataAnalytics\solr\server\solr
-2019-02-27 10:07:12.014 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [banana-int, forest-new, forestdata]
-2019-02-27 10:07:12.020 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
-2019-02-27 10:07:12.366 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrResourceLoader [forest-new] Added 53 libs to classloader, from paths: [/D:/projects/ForestDataAnalytics/solr/contrib/clustering/lib, /D:/projects/ForestDataAnalytics/solr/contrib/extraction/lib, /D:/projects/ForestDataAnalytics/solr/contrib/langid/lib, /D:/projects/ForestDataAnalytics/solr/contrib/velocity/lib, /D:/projects/ForestDataAnalytics/solr/dist]
-2019-02-27 10:07:12.366 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrResourceLoader [forestdata] Added 53 libs to classloader, from paths: [/D:/projects/ForestDataAnalytics/solr/contrib/clustering/lib, /D:/projects/ForestDataAnalytics/solr/contrib/extraction/lib, /D:/projects/ForestDataAnalytics/solr/contrib/langid/lib, /D:/projects/ForestDataAnalytics/solr/contrib/velocity/lib, /D:/projects/ForestDataAnalytics/solr/dist]
-2019-02-27 10:07:12.526 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
-2019-02-27 10:07:12.528 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
-2019-02-27 10:07:13.395 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema [banana-int] Schema name=banana-int
-2019-02-27 10:07:14.597 WARN  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieLongField]. Please consult documentation how to replace it accordingly.
-2019-02-27 10:07:14.786 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema Loaded schema banana-int/1.5 with uniqueid field id
-2019-02-27 10:07:14.787 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.CoreContainer Creating SolrCore 'banana-int' using configuration from instancedir D:\projects\ForestDataAnalytics\solr\server\solr\banana-int, trusted=true
-2019-02-27 10:07:15.207 INFO  (main) [   ] o.e.j.s.Server Started @8543ms
-2019-02-27 10:07:15.714 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
-2019-02-27 10:07:15.821 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore [[banana-int] ] Opening new SolrCore at [D:\projects\ForestDataAnalytics\solr\server\solr\banana-int], dataDir=[D:\projects\ForestDataAnalytics\solr\server\solr\banana-int\data\]
-2019-02-27 10:07:16.097 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
-2019-02-27 10:07:16.108 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
-2019-02-27 10:07:16.292 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema [forest-new] Schema name=default-config
-2019-02-27 10:07:16.303 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema [forestdata] Schema name=default-config
-2019-02-27 10:07:16.660 INFO  (qtp959447386-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=70
-2019-02-27 10:07:17.402 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2019-02-27 10:07:17.403 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2019-02-27 10:07:17.819 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
-2019-02-27 10:07:17.819 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2019-02-27 10:07:18.059 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
-2019-02-27 10:07:18.116 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.CoreContainer Creating SolrCore 'forest-new' using configuration from instancedir D:\projects\ForestDataAnalytics\solr\server\solr\forest-new, trusted=true
-2019-02-27 10:07:18.118 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
-2019-02-27 10:07:18.118 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore [[forest-new] ] Opening new SolrCore at [D:\projects\ForestDataAnalytics\solr\server\solr\forest-new], dataDir=[D:\projects\ForestDataAnalytics\solr\server\solr\forest-new\data\]
-2019-02-27 10:07:18.216 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
-2019-02-27 10:07:18.265 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
-2019-02-27 10:07:18.304 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.CoreContainer Creating SolrCore 'forestdata' using configuration from instancedir D:\projects\ForestDataAnalytics\solr\server\solr\forestdata, trusted=true
-2019-02-27 10:07:18.305 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
-2019-02-27 10:07:18.305 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore [[forestdata] ] Opening new SolrCore at [D:\projects\ForestDataAnalytics\solr\server\solr\forestdata], dataDir=[D:\projects\ForestDataAnalytics\solr\server\solr\forestdata\data\]
-2019-02-27 10:07:18.313 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
-2019-02-27 10:07:18.476 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.SolrIndexSearcher Opening [Searcher@6dcdcbc[banana-int] main]
-2019-02-27 10:07:18.613 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\ForestDataAnalytics\solr\server\solr\banana-int\conf
-2019-02-27 10:07:18.819 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
-2019-02-27 10:07:19.289 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2019-02-27 10:07:19.290 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2019-02-27 10:07:19.291 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2019-02-27 10:07:19.291 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2019-02-27 10:07:19.299 INFO  (searcherExecutor-7-thread-1-processing-x:banana-int) [   x:banana-int] o.a.s.c.SolrCore [banana-int] Registered new searcher Searcher@6dcdcbc[banana-int] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_v(7.2.1):C1)))}
-2019-02-27 10:07:19.332 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
-2019-02-27 10:07:19.332 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2019-02-27 10:07:19.346 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
-2019-02-27 10:07:19.346 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2019-02-27 10:07:19.663 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.SolrIndexSearcher Opening [Searcher@18fa5727[forestdata] main]
-2019-02-27 10:07:19.690 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.SolrIndexSearcher Opening [Searcher@112e3c9e[forest-new] main]
-2019-02-27 10:07:19.690 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\ForestDataAnalytics\solr\server\solr\forestdata\conf
-2019-02-27 10:07:19.691 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\ForestDataAnalytics\solr\server\solr\forest-new\conf
-2019-02-27 10:07:19.691 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
-2019-02-27 10:07:19.691 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
-2019-02-27 10:07:19.742 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-2019-02-27 10:07:19.743 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-2019-02-27 10:07:19.754 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
-2019-02-27 10:07:19.754 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
-2019-02-27 10:07:19.755 INFO  (searcherExecutor-13-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@18fa5727[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
-2019-02-27 10:07:19.756 INFO  (searcherExecutor-13-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener done.
-2019-02-27 10:07:19.756 INFO  (searcherExecutor-13-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
-2019-02-27 10:07:19.755 INFO  (searcherExecutor-12-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@112e3c9e[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
-2019-02-27 10:07:19.759 INFO  (searcherExecutor-12-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener done.
-2019-02-27 10:07:19.759 INFO  (searcherExecutor-13-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.SolrCore [forestdata] Registered new searcher Searcher@18fa5727[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
-2019-02-27 10:07:19.759 INFO  (searcherExecutor-12-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
-2019-02-27 10:07:19.760 INFO  (searcherExecutor-12-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.SolrCore [forest-new] Registered new searcher Searcher@112e3c9e[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
-2019-02-27 10:08:00.881 INFO  (qtp959447386-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=12
-2019-02-27 10:08:00.932 INFO  (qtp959447386-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=3
-2019-02-27 10:08:01.328 INFO  (qtp959447386-13) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/select params={q=*:*&rows=20&wt=json} hits=1 status=0 QTime=147
-2019-02-27 10:08:03.877 INFO  (qtp959447386-22) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/select params={q=title:"Forest+Data+Analytics"&wt=json} hits=1 status=0 QTime=63
-2019-02-27 10:08:03.985 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=7
-2019-02-27 10:08:04.555 INFO  (qtp959447386-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=2
-2019-02-27 10:08:04.574 INFO  (qtp959447386-20) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=2
-2019-02-27 10:08:04.840 INFO  (qtp959447386-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=250&wt=json} hits=122 status=0 QTime=2
-2019-02-27 10:08:04.866 WARN  (qtp959447386-13) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field cuttingRestriction is Points-based.
-2019-02-27 10:08:04.869 WARN  (qtp959447386-19) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field fertilityClass is Points-based.
-2019-02-27 10:08:04.914 INFO  (qtp959447386-19) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=fertilityClass&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&f.fertilityClass.facet.sort=count&wt=json&facet=true} hits=122 status=0 QTime=211
-2019-02-27 10:08:04.915 INFO  (qtp959447386-13) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=cuttingRestriction&f.cuttingRestriction.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=164
-2019-02-27 10:08:04.982 INFO  (qtp959447386-21) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B1YEAR&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z/SECOND&facet.range.end=NOW} hits=122 status=0 QTime=310
-2019-02-27 10:08:05.059 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field soilType is Points-based.
-2019-02-27 10:08:05.060 INFO  (qtp959447386-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=soilType&f.soilType.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=2
-2019-02-27 10:08:06.503 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&stats=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&stats.field=id} hits=122 status=0 QTime=32
-2019-02-27 10:08:06.534 INFO  (qtp959447386-17) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B25150DAY&facet.range.other=between&facet.range.hardend=true&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z&facet.range.end=2019-02-27T10:08:04.549Z} hits=122 status=0 QTime=2
-2019-02-27 10:08:06.536 INFO  (qtp959447386-18) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B25150DAY&facet.range.other=between&facet.range.hardend=true&rows=0&wt=json&facet=true&facet.range.start=1940-04-23T10:38:33.000Z&facet.range.end=2009-03-01T10:08:04.549Z} hits=122 status=0 QTime=1
-2019-02-27 10:08:07.033 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanDiameter is Points-based.
-2019-02-27 10:08:07.073 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.074 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.075 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.076 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.076 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.077 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.078 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.078 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.079 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.080 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.080 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.081 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.081 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.082 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.083 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.084 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.085 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.085 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.086 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.087 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.088 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.088 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.089 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.090 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.090 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.091 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.091 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.092 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.093 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.093 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.094 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.094 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.094 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.095 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.095 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.096 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.096 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.097 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.097 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.098 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-27 10:08:07.098 INFO  (qtp959447386-17) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=40&facet.pivot=meanDiameter,meanHeight&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.pivot.mincount=0} hits=122 status=0 QTime=67
-2019-02-27 10:08:07.118 INFO  (qtp959447386-19) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fl=fertilityClass,soilType&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=1000&wt=csv} hits=122 status=0 QTime=2
-2019-02-27 10:09:21.475 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1360657223
-2019-02-27 10:09:21.476 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
-2019-02-27 10:09:21.476 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
-2019-02-27 10:09:21.476 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
-2019-02-27 10:09:21.478 INFO  (coreCloseExecutor-23-thread-1) [   x:banana-int] o.a.s.c.SolrCore [banana-int]  CLOSING SolrCore org.apache.solr.core.SolrCore@6aa478a9
-2019-02-27 10:09:21.478 INFO  (coreCloseExecutor-23-thread-2) [   x:forestdata] o.a.s.c.SolrCore [forestdata]  CLOSING SolrCore org.apache.solr.core.SolrCore@273355e7
-2019-02-27 10:09:21.478 INFO  (coreCloseExecutor-23-thread-1) [   x:banana-int] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.banana-int, tag=1789163689
-2019-02-27 10:09:21.479 INFO  (coreCloseExecutor-23-thread-3) [   x:forest-new] o.a.s.c.SolrCore [forest-new]  CLOSING SolrCore org.apache.solr.core.SolrCore@651263ea
-2019-02-27 10:09:21.479 INFO  (coreCloseExecutor-23-thread-3) [   x:forest-new] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.forest-new, tag=1695704042
-2019-02-27 10:09:21.479 INFO  (coreCloseExecutor-23-thread-2) [   x:forestdata] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.forestdata, tag=657675751
+2019-02-27 10:46:37.836 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2019-02-27 10:46:38.627 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.2.1
+2019-02-27 10:46:38.628 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-02-27 10:46:38.628 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\projects\ForestDataAnalytics\solr
+2019-02-27 10:46:38.643 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-02-27T10:46:38.629Z
+2019-02-27 10:46:38.643 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2019-02-27 10:46:38.662 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: D:\projects\ForestDataAnalytics\solr\server\solr
+2019-02-27 10:46:38.668 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\projects\ForestDataAnalytics\solr\server\solr\solr.xml
+2019-02-27 10:46:39.366 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath D:\projects\ForestDataAnalytics\solr\server\solr
+2019-02-27 10:46:39.368 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [banana-int, forest-new, forestdata]
+2019-02-27 10:46:39.373 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-02-27 10:46:39.527 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2019-02-27 10:46:39.529 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
+2019-02-27 10:46:39.552 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrResourceLoader [forest-new] Added 53 libs to classloader, from paths: [/D:/projects/ForestDataAnalytics/solr/contrib/clustering/lib, /D:/projects/ForestDataAnalytics/solr/contrib/extraction/lib, /D:/projects/ForestDataAnalytics/solr/contrib/langid/lib, /D:/projects/ForestDataAnalytics/solr/contrib/velocity/lib, /D:/projects/ForestDataAnalytics/solr/dist]
+2019-02-27 10:46:39.589 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrResourceLoader [forestdata] Added 53 libs to classloader, from paths: [/D:/projects/ForestDataAnalytics/solr/contrib/clustering/lib, /D:/projects/ForestDataAnalytics/solr/contrib/extraction/lib, /D:/projects/ForestDataAnalytics/solr/contrib/langid/lib, /D:/projects/ForestDataAnalytics/solr/contrib/velocity/lib, /D:/projects/ForestDataAnalytics/solr/dist]
+2019-02-27 10:46:39.778 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema [banana-int] Schema name=banana-int
+2019-02-27 10:46:39.869 WARN  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieLongField]. Please consult documentation how to replace it accordingly.
+2019-02-27 10:46:39.904 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema Loaded schema banana-int/1.5 with uniqueid field id
+2019-02-27 10:46:39.905 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.CoreContainer Creating SolrCore 'banana-int' using configuration from instancedir D:\projects\ForestDataAnalytics\solr\server\solr\banana-int, trusted=true
+2019-02-27 10:46:39.918 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
+2019-02-27 10:46:39.945 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
+2019-02-27 10:46:40.051 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2019-02-27 10:46:40.060 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore [[banana-int] ] Opening new SolrCore at [D:\projects\ForestDataAnalytics\solr\server\solr\banana-int], dataDir=[D:\projects\ForestDataAnalytics\solr\server\solr\banana-int\data\]
+2019-02-27 10:46:40.156 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema [forestdata] Schema name=default-config
+2019-02-27 10:46:40.170 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema [forest-new] Schema name=default-config
+2019-02-27 10:46:40.335 INFO  (main) [   ] o.e.j.s.Server Started @3463ms
+2019-02-27 10:46:40.808 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-02-27 10:46:40.808 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-02-27 10:46:40.844 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2019-02-27 10:46:40.845 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-02-27 10:46:41.029 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-02-27 10:46:41.092 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-02-27 10:46:41.099 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.CoreContainer Creating SolrCore 'forestdata' using configuration from instancedir D:\projects\ForestDataAnalytics\solr\server\solr\forestdata, trusted=true
+2019-02-27 10:46:41.114 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.SolrIndexSearcher Opening [Searcher@384f269a[banana-int] main]
+2019-02-27 10:46:41.130 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2019-02-27 10:46:41.131 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore [[forestdata] ] Opening new SolrCore at [D:\projects\ForestDataAnalytics\solr\server\solr\forestdata], dataDir=[D:\projects\ForestDataAnalytics\solr\server\solr\forestdata\data\]
+2019-02-27 10:46:41.150 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\ForestDataAnalytics\solr\server\solr\banana-int\conf
+2019-02-27 10:46:41.161 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-02-27 10:46:41.179 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-02-27 10:46:41.228 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.CoreContainer Creating SolrCore 'forest-new' using configuration from instancedir D:\projects\ForestDataAnalytics\solr\server\solr\forest-new, trusted=true
+2019-02-27 10:46:41.228 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2019-02-27 10:46:41.229 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore [[forest-new] ] Opening new SolrCore at [D:\projects\ForestDataAnalytics\solr\server\solr\forest-new], dataDir=[D:\projects\ForestDataAnalytics\solr\server\solr\forest-new\data\]
+2019-02-27 10:46:41.278 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-02-27 10:46:41.362 INFO  (searcherExecutor-7-thread-1-processing-x:banana-int) [   x:banana-int] o.a.s.c.SolrCore [banana-int] Registered new searcher Searcher@384f269a[banana-int] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_v(7.2.1):C1)))}
+2019-02-27 10:46:41.441 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-02-27 10:46:41.441 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-02-27 10:46:41.442 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-02-27 10:46:41.443 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-02-27 10:46:41.449 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2019-02-27 10:46:41.452 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-02-27 10:46:41.459 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2019-02-27 10:46:41.459 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-02-27 10:46:41.499 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.SolrIndexSearcher Opening [Searcher@7c04e6f7[forest-new] main]
+2019-02-27 10:46:41.500 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\ForestDataAnalytics\solr\server\solr\forest-new\conf
+2019-02-27 10:46:41.501 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-02-27 10:46:41.503 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.SolrIndexSearcher Opening [Searcher@7cc67656[forestdata] main]
+2019-02-27 10:46:41.504 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\ForestDataAnalytics\solr\server\solr\forestdata\conf
+2019-02-27 10:46:41.505 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-02-27 10:46:41.513 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-02-27 10:46:41.514 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-02-27 10:46:41.528 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-02-27 10:46:41.530 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7c04e6f7[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
+2019-02-27 10:46:41.530 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-02-27 10:46:41.530 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-02-27 10:46:41.530 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-02-27 10:46:41.536 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.SolrCore [forest-new] Registered new searcher Searcher@7c04e6f7[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
+2019-02-27 10:46:41.536 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7cc67656[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
+2019-02-27 10:46:41.536 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-02-27 10:46:41.536 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-02-27 10:46:41.538 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.SolrCore [forestdata] Registered new searcher Searcher@7cc67656[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
+2019-02-27 10:46:45.290 INFO  (qtp959447386-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=14
+2019-02-27 10:46:52.479 INFO  (qtp959447386-17) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/select params={q=title:"Forest+Data+Analytics"&wt=json} hits=1 status=0 QTime=40
+2019-02-27 10:46:52.654 INFO  (qtp959447386-18) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=6
+2019-02-27 10:46:53.526 INFO  (qtp959447386-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=5
+2019-02-27 10:46:53.576 INFO  (qtp959447386-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=2
+2019-02-27 10:46:53.762 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B25150DAY&facet.range.other=between&facet.range.hardend=true&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z&facet.range.end=2019-02-27T10:46:53.516Z} hits=122 status=0 QTime=48
+2019-02-27 10:46:53.766 INFO  (qtp959447386-21) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B25150DAY&facet.range.other=between&facet.range.hardend=true&rows=0&wt=json&facet=true&facet.range.start=1940-04-23T10:38:33.000Z&facet.range.end=2009-03-01T10:46:53.516Z} hits=122 status=0 QTime=49
+2019-02-27 10:46:53.799 WARN  (qtp959447386-20) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field fertilityClass is Points-based.
+2019-02-27 10:46:53.804 INFO  (qtp959447386-20) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=fertilityClass&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&f.fertilityClass.facet.sort=count&wt=json&facet=true} hits=122 status=0 QTime=17
+2019-02-27 10:46:53.840 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field cuttingRestriction is Points-based.
+2019-02-27 10:46:53.841 INFO  (qtp959447386-17) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=cuttingRestriction&f.cuttingRestriction.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=1
+2019-02-27 10:46:53.884 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field soilType is Points-based.
+2019-02-27 10:46:53.885 INFO  (qtp959447386-18) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=soilType&f.soilType.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=1
+2019-02-27 10:46:53.961 INFO  (qtp959447386-19) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=250&wt=json} hits=122 status=0 QTime=1
+2019-02-27 10:46:55.372 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanDiameter is Points-based.
+2019-02-27 10:46:55.377 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.379 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.380 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.381 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.382 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.382 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.383 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.383 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.384 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.384 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.385 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.385 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.386 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.387 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.388 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.389 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.390 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.391 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.391 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.392 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.393 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.394 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.396 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.397 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.398 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.398 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.399 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.400 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.400 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.401 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.401 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.402 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.402 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.403 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.403 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.404 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.405 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.406 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.406 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.407 WARN  (qtp959447386-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:46:55.408 INFO  (qtp959447386-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=40&facet.pivot=meanDiameter,meanHeight&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.pivot.mincount=0} hits=122 status=0 QTime=39
+2019-02-27 10:46:55.496 INFO  (qtp959447386-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fl=fertilityClass,soilType&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=1000&wt=csv} hits=122 status=0 QTime=2
+2019-02-27 10:46:55.725 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&stats=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&stats.field=id} hits=122 status=0 QTime=13
+2019-02-27 10:46:56.045 INFO  (qtp959447386-21) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B1YEAR&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z/SECOND&facet.range.end=NOW} hits=122 status=0 QTime=33
+2019-02-27 10:48:45.993 INFO  (qtp959447386-20) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/select params={q=title:"Forest+Data+Analytics"&wt=json} hits=1 status=0 QTime=1
+2019-02-27 10:48:46.054 INFO  (qtp959447386-17) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=2
+2019-02-27 10:48:46.929 INFO  (qtp959447386-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=4
+2019-02-27 10:48:46.958 INFO  (qtp959447386-19) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1
+2019-02-27 10:48:47.024 INFO  (qtp959447386-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B25150DAY&facet.range.other=between&facet.range.hardend=true&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z&facet.range.end=2019-02-27T10:48:46.920Z} hits=122 status=0 QTime=2
+2019-02-27 10:48:47.029 INFO  (qtp959447386-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B25150DAY&facet.range.other=between&facet.range.hardend=true&rows=0&wt=json&facet=true&facet.range.start=1940-04-23T10:38:33.000Z&facet.range.end=2009-03-01T10:48:46.920Z} hits=122 status=0 QTime=1
+2019-02-27 10:48:47.081 WARN  (qtp959447386-16) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field fertilityClass is Points-based.
+2019-02-27 10:48:47.082 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=fertilityClass&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&f.fertilityClass.facet.sort=count&wt=json&facet=true} hits=122 status=0 QTime=1
+2019-02-27 10:48:47.133 WARN  (qtp959447386-21) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field cuttingRestriction is Points-based.
+2019-02-27 10:48:47.133 INFO  (qtp959447386-21) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=cuttingRestriction&f.cuttingRestriction.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=1
+2019-02-27 10:48:47.172 WARN  (qtp959447386-20) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field soilType is Points-based.
+2019-02-27 10:48:47.172 INFO  (qtp959447386-20) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=soilType&f.soilType.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=1
+2019-02-27 10:48:47.241 INFO  (qtp959447386-17) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=250&wt=json} hits=122 status=0 QTime=0
+2019-02-27 10:48:48.847 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanDiameter is Points-based.
+2019-02-27 10:48:48.848 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.848 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.848 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.849 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.849 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.849 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.850 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.850 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.850 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.850 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.851 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.851 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.851 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.851 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.852 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.852 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.852 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.852 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.853 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.853 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.853 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.853 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.854 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.854 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.854 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.854 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.855 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.855 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.855 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.855 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.855 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.856 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.856 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.856 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.856 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.857 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.857 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.857 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.857 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.857 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:48:48.858 INFO  (qtp959447386-18) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=40&facet.pivot=meanDiameter,meanHeight&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.pivot.mincount=0} hits=122 status=0 QTime=11
+2019-02-27 10:48:48.933 INFO  (qtp959447386-19) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fl=fertilityClass,soilType&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=1000&wt=csv} hits=122 status=0 QTime=1
+2019-02-27 10:48:49.215 INFO  (qtp959447386-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&stats=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&stats.field=id} hits=122 status=0 QTime=1
+2019-02-27 10:48:49.487 INFO  (qtp959447386-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B1YEAR&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z/SECOND&facet.range.end=NOW} hits=122 status=0 QTime=22
+2019-02-27 10:54:01.717 INFO  (qtp959447386-17) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/select params={q=title:"Forest+Data+Analytics"&wt=json} hits=1 status=0 QTime=0
+2019-02-27 10:54:01.795 INFO  (qtp959447386-18) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=2
+2019-02-27 10:54:03.319 INFO  (qtp959447386-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=4
+2019-02-27 10:54:03.372 INFO  (qtp959447386-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1
+2019-02-27 10:54:03.458 INFO  (qtp959447386-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B25150DAY&facet.range.other=between&facet.range.hardend=true&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z&facet.range.end=2019-02-27T10:54:03.311Z} hits=122 status=0 QTime=2
+2019-02-27 10:54:03.459 INFO  (qtp959447386-13) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B25150DAY&facet.range.other=between&facet.range.hardend=true&rows=0&wt=json&facet=true&facet.range.start=1940-04-23T10:38:33.000Z&facet.range.end=2009-03-01T10:54:03.311Z} hits=122 status=0 QTime=1
+2019-02-27 10:54:03.546 WARN  (qtp959447386-20) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field fertilityClass is Points-based.
+2019-02-27 10:54:03.547 INFO  (qtp959447386-20) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=fertilityClass&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&f.fertilityClass.facet.sort=count&wt=json&facet=true} hits=122 status=0 QTime=1
+2019-02-27 10:54:03.592 WARN  (qtp959447386-17) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field cuttingRestriction is Points-based.
+2019-02-27 10:54:03.592 INFO  (qtp959447386-17) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=cuttingRestriction&f.cuttingRestriction.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=1
+2019-02-27 10:54:03.625 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field soilType is Points-based.
+2019-02-27 10:54:03.625 INFO  (qtp959447386-18) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=soilType&f.soilType.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=1
+2019-02-27 10:54:04.272 INFO  (qtp959447386-19) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=250&wt=json} hits=122 status=0 QTime=0
+2019-02-27 10:54:05.411 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanDiameter is Points-based.
+2019-02-27 10:54:05.411 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.412 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.412 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.412 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.412 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.413 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.413 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.414 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.414 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.414 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.414 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.414 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.414 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.414 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.415 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.415 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.415 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.415 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.415 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.416 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.416 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.416 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.416 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.417 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.417 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.417 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.417 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.418 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.418 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.418 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.418 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.418 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.419 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.419 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.419 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.419 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.419 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.420 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.420 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.420 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
+2019-02-27 10:54:05.420 INFO  (qtp959447386-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=40&facet.pivot=meanDiameter,meanHeight&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.pivot.mincount=0} hits=122 status=0 QTime=10
+2019-02-27 10:54:05.505 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fl=fertilityClass,soilType&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=1000&wt=csv} hits=122 status=0 QTime=0
+2019-02-27 10:54:06.033 INFO  (qtp959447386-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&stats=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&stats.field=id} hits=122 status=0 QTime=1
+2019-02-27 10:54:06.170 INFO  (qtp959447386-13) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B1YEAR&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z/SECOND&facet.range.end=NOW} hits=122 status=0 QTime=19
+2019-02-27 10:54:41.371 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1360657223
+2019-02-27 10:54:41.372 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-02-27 10:54:41.372 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-02-27 10:54:41.372 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-02-27 10:54:41.373 INFO  (coreCloseExecutor-23-thread-1) [   x:banana-int] o.a.s.c.SolrCore [banana-int]  CLOSING SolrCore org.apache.solr.core.SolrCore@6cf7efd5
+2019-02-27 10:54:41.373 INFO  (coreCloseExecutor-23-thread-2) [   x:forest-new] o.a.s.c.SolrCore [forest-new]  CLOSING SolrCore org.apache.solr.core.SolrCore@3bc4f707
+2019-02-27 10:54:41.374 INFO  (coreCloseExecutor-23-thread-1) [   x:banana-int] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.banana-int, tag=1828188117
+2019-02-27 10:54:41.374 INFO  (coreCloseExecutor-23-thread-2) [   x:forest-new] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.forest-new, tag=1002764039
+2019-02-27 10:54:41.374 INFO  (coreCloseExecutor-23-thread-3) [   x:forestdata] o.a.s.c.SolrCore [forestdata]  CLOSING SolrCore org.apache.solr.core.SolrCore@5450c4d0
+2019-02-27 10:54:41.374 INFO  (coreCloseExecutor-23-thread-3) [   x:forestdata] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.forestdata, tag=1414579408

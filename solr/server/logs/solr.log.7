@@ -1,192 +1,105 @@
-2019-02-25 14:02:11.742 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
-2019-02-25 14:02:12.636 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.2.1
-2019-02-25 14:02:12.637 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
-2019-02-25 14:02:12.638 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1
-2019-02-25 14:02:12.713 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-02-25T14:02:12.641Z
-2019-02-25 14:02:12.714 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
-2019-02-25 14:02:12.859 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr
-2019-02-25 14:02:12.910 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\solr.xml
-2019-02-25 14:02:14.561 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr
-2019-02-25 14:02:14.583 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [banana-int, forest-new, forestdata]
-2019-02-25 14:02:14.590 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
-2019-02-25 14:02:15.071 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
-2019-02-25 14:02:15.073 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
-2019-02-25 14:02:15.244 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrResourceLoader [forest-new] Added 53 libs to classloader, from paths: [/D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/clustering/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/extraction/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/langid/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/velocity/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/dist]
-2019-02-25 14:02:15.244 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrResourceLoader [forestdata] Added 53 libs to classloader, from paths: [/D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/clustering/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/extraction/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/langid/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/contrib/velocity/lib, /D:/projects/team-ground-assist/team-ground-assist/solr-7.2.1/solr-7.2.1/dist]
-2019-02-25 14:02:15.715 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema [banana-int] Schema name=banana-int
-2019-02-25 14:02:15.837 WARN  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieLongField]. Please consult documentation how to replace it accordingly.
-2019-02-25 14:02:16.009 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema Loaded schema banana-int/1.5 with uniqueid field id
-2019-02-25 14:02:16.011 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.CoreContainer Creating SolrCore 'banana-int' using configuration from instancedir D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\banana-int, trusted=true
-2019-02-25 14:02:16.648 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
-2019-02-25 14:02:16.787 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore [[banana-int] ] Opening new SolrCore at [D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\banana-int], dataDir=[D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\banana-int\data\]
-2019-02-25 14:02:17.450 INFO  (main) [   ] o.e.j.s.Server Started @8332ms
-2019-02-25 14:02:17.642 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
-2019-02-25 14:02:17.698 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
-2019-02-25 14:02:17.887 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema [forest-new] Schema name=default-config
-2019-02-25 14:02:17.902 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema [forestdata] Schema name=default-config
-2019-02-25 14:02:18.296 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2019-02-25 14:02:18.297 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2019-02-25 14:02:18.509 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
-2019-02-25 14:02:18.509 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2019-02-25 14:02:19.134 INFO  (qtp959447386-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=173
-2019-02-25 14:02:19.138 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.SolrIndexSearcher Opening [Searcher@77902ed3[banana-int] main]
-2019-02-25 14:02:19.194 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\banana-int\conf
-2019-02-25 14:02:19.294 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
-2019-02-25 14:02:19.464 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
-2019-02-25 14:02:19.531 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.CoreContainer Creating SolrCore 'forestdata' using configuration from instancedir D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forestdata, trusted=true
-2019-02-25 14:02:19.532 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
-2019-02-25 14:02:19.532 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore [[forestdata] ] Opening new SolrCore at [D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forestdata], dataDir=[D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forestdata\data\]
-2019-02-25 14:02:19.606 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
-2019-02-25 14:02:19.625 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
-2019-02-25 14:02:19.660 INFO  (searcherExecutor-7-thread-1-processing-x:banana-int) [   x:banana-int] o.a.s.c.SolrCore [banana-int] Registered new searcher Searcher@77902ed3[banana-int] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_v(7.2.1):C1)))}
-2019-02-25 14:02:19.675 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.CoreContainer Creating SolrCore 'forest-new' using configuration from instancedir D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forest-new, trusted=true
-2019-02-25 14:02:19.675 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
-2019-02-25 14:02:19.675 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore [[forest-new] ] Opening new SolrCore at [D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forest-new], dataDir=[D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forest-new\data\]
-2019-02-25 14:02:19.705 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
-2019-02-25 14:02:19.945 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2019-02-25 14:02:19.950 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2019-02-25 14:02:19.959 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
-2019-02-25 14:02:19.959 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
-2019-02-25 14:02:19.996 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
-2019-02-25 14:02:19.997 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2019-02-25 14:02:19.999 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
-2019-02-25 14:02:20.000 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Soft AutoCommit: disabled
-2019-02-25 14:02:20.177 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.SolrIndexSearcher Opening [Searcher@4de6366f[forest-new] main]
-2019-02-25 14:02:20.183 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forest-new\conf
-2019-02-25 14:02:20.195 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
-2019-02-25 14:02:20.201 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.SolrIndexSearcher Opening [Searcher@64a056eb[forestdata] main]
-2019-02-25 14:02:20.202 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\projects\team-ground-assist\team-ground-assist\solr-7.2.1\solr-7.2.1\server\solr\forestdata\conf
-2019-02-25 14:02:20.202 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
-2019-02-25 14:02:20.216 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-2019-02-25 14:02:20.216 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-2019-02-25 14:02:20.230 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
-2019-02-25 14:02:20.230 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
-2019-02-25 14:02:20.232 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@64a056eb[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
-2019-02-25 14:02:20.232 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener done.
-2019-02-25 14:02:20.232 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4de6366f[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
-2019-02-25 14:02:20.232 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener done.
-2019-02-25 14:02:20.232 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
-2019-02-25 14:02:20.233 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.SolrCore [forest-new] Registered new searcher Searcher@4de6366f[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
-2019-02-25 14:02:20.232 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
-2019-02-25 14:02:20.235 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.SolrCore [forestdata] Registered new searcher Searcher@64a056eb[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
-2019-02-25 14:04:14.323 INFO  (qtp959447386-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=1
-2019-02-25 14:04:14.338 INFO  (qtp959447386-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=14
-2019-02-25 14:04:14.373 INFO  (qtp959447386-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=12
-2019-02-25 14:04:17.433 INFO  (qtp959447386-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=0
-2019-02-25 14:04:17.464 INFO  (qtp959447386-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=24
-2019-02-25 14:04:17.469 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1551103457424} status=0 QTime=19
-2019-02-25 14:04:17.476 INFO  (qtp959447386-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/replication params={wt=json&command=details&_=1551103457424} status=0 QTime=22
-2019-02-25 14:04:17.481 INFO  (qtp959447386-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1551103453958&ts=1551103453958} status=503 QTime=11
-2019-02-25 14:04:17.493 INFO  (qtp959447386-17) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/system params={wt=json&_=1551103457424} status=0 QTime=37
-2019-02-25 14:04:19.506 INFO  (qtp959447386-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=0
-2019-02-25 14:04:19.516 INFO  (qtp959447386-22) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1551103457424} status=0 QTime=1
-2019-02-25 14:04:19.521 INFO  (qtp959447386-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=12
-2019-02-25 14:04:19.526 INFO  (qtp959447386-15) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/replication params={wt=json&command=details&_=1551103457424} status=0 QTime=7
-2019-02-25 14:04:19.538 INFO  (qtp959447386-17) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1551103453958&ts=1551103453958} status=503 QTime=0
-2019-02-25 14:04:19.547 INFO  (qtp959447386-18) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/system params={wt=json&_=1551103457424} status=0 QTime=13
-2019-02-25 14:04:21.222 INFO  (qtp959447386-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=0
-2019-02-25 14:04:21.245 INFO  (qtp959447386-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=17
-2019-02-25 14:04:21.252 INFO  (qtp959447386-19) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/replication params={wt=json&command=details&_=1551103457424} status=0 QTime=1
-2019-02-25 14:04:21.259 INFO  (qtp959447386-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1551103457424} status=0 QTime=0
-2019-02-25 14:04:21.278 INFO  (qtp959447386-21) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/system params={wt=json&_=1551103457424} status=0 QTime=11
-2019-02-25 14:04:21.283 INFO  (qtp959447386-20) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1551103453958&ts=1551103453958} status=503 QTime=0
-2019-02-25 14:04:22.774 INFO  (qtp959447386-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=0
-2019-02-25 14:04:22.785 INFO  (qtp959447386-13) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1551103457424} status=0 QTime=0
-2019-02-25 14:04:22.790 INFO  (qtp959447386-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=13
-2019-02-25 14:04:22.798 INFO  (qtp959447386-18) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/replication params={wt=json&command=details&_=1551103457424} status=0 QTime=1
-2019-02-25 14:04:22.808 INFO  (qtp959447386-22) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1551103453958&ts=1551103453958} status=503 QTime=0
-2019-02-25 14:04:22.815 INFO  (qtp959447386-18) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/system params={wt=json&_=1551103457424} status=0 QTime=11
-2019-02-25 14:04:29.510 INFO  (qtp959447386-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=0
-2019-02-25 14:04:29.516 INFO  (qtp959447386-20) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1551103457424} status=0 QTime=0
-2019-02-25 14:04:29.525 INFO  (qtp959447386-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=11
-2019-02-25 14:04:29.527 INFO  (qtp959447386-17) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/replication params={wt=json&command=details&_=1551103457424} status=0 QTime=1
-2019-02-25 14:04:29.536 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1551103453958&ts=1551103453958} status=503 QTime=0
-2019-02-25 14:04:29.542 INFO  (qtp959447386-13) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/system params={wt=json&_=1551103457424} status=0 QTime=9
-2019-02-25 14:04:30.828 INFO  (qtp959447386-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=0
-2019-02-25 14:04:30.848 INFO  (qtp959447386-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=12
-2019-02-25 14:04:30.855 INFO  (qtp959447386-16) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1551103457424} status=0 QTime=1
-2019-02-25 14:04:30.861 INFO  (qtp959447386-20) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/replication params={wt=json&command=details&_=1551103457424} status=0 QTime=2
-2019-02-25 14:04:30.879 INFO  (qtp959447386-17) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/admin/system params={wt=json&_=1551103457424} status=0 QTime=13
-2019-02-25 14:04:30.885 INFO  (qtp959447386-21) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1551103453958&ts=1551103453958} status=503 QTime=0
-2019-02-25 14:04:32.438 INFO  (qtp959447386-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=0
-2019-02-25 14:04:32.450 INFO  (qtp959447386-19) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1551103457424} status=0 QTime=0
-2019-02-25 14:04:32.452 INFO  (qtp959447386-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=12
-2019-02-25 14:04:32.454 INFO  (qtp959447386-13) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/replication params={wt=json&command=details&_=1551103457424} status=0 QTime=1
-2019-02-25 14:04:32.459 INFO  (qtp959447386-20) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1551103453958&ts=1551103453958} status=503 QTime=0
-2019-02-25 14:04:32.467 INFO  (qtp959447386-18) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/system params={wt=json&_=1551103457424} status=0 QTime=10
-2019-02-25 14:04:34.316 INFO  (qtp959447386-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=0
-2019-02-25 14:04:34.322 INFO  (qtp959447386-21) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1551103457424} status=0 QTime=0
-2019-02-25 14:04:34.332 INFO  (qtp959447386-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=11
-2019-02-25 14:04:34.332 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/replication params={wt=json&command=details&_=1551103457424} status=0 QTime=1
-2019-02-25 14:04:34.340 INFO  (qtp959447386-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1551103453958&ts=1551103453958} status=503 QTime=0
-2019-02-25 14:04:34.346 INFO  (qtp959447386-21) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/system params={wt=json&_=1551103457424} status=0 QTime=11
-2019-02-25 14:04:35.880 INFO  (qtp959447386-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=0
-2019-02-25 14:04:35.891 INFO  (qtp959447386-20) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1551103457424} status=0 QTime=0
-2019-02-25 14:04:35.896 INFO  (qtp959447386-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=12
-2019-02-25 14:04:35.899 INFO  (qtp959447386-20) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/replication params={wt=json&command=details&_=1551103457424} status=0 QTime=1
-2019-02-25 14:04:35.909 INFO  (qtp959447386-22) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1551103453958&ts=1551103453958} status=503 QTime=0
-2019-02-25 14:04:35.913 INFO  (qtp959447386-17) [   x:forest-new] o.a.s.c.S.Request [forest-new]  webapp=/solr path=/admin/system params={wt=json&_=1551103457424} status=0 QTime=10
-2019-02-25 14:08:07.765 INFO  (qtp959447386-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1551103453957} status=0 QTime=0
-2019-02-25 14:08:07.783 INFO  (qtp959447386-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=16
-2019-02-25 14:08:07.804 INFO  (qtp959447386-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1551103453958} status=0 QTime=10
-2019-02-25 14:18:59.355 INFO  (qtp959447386-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=6
-2019-02-25 14:18:59.416 INFO  (qtp959447386-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=3
-2019-02-25 14:19:02.749 INFO  (qtp959447386-18) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/select params={q=*:*&rows=20&wt=json} hits=1 status=0 QTime=129
-2019-02-25 14:19:04.334 INFO  (qtp959447386-21) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/select params={q=title:"Forest+Data+Analytics"&wt=json} hits=1 status=0 QTime=8
-2019-02-25 14:19:04.560 INFO  (qtp959447386-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=34
-2019-02-25 14:19:05.040 INFO  (qtp959447386-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=4
-2019-02-25 14:19:05.062 INFO  (qtp959447386-18) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=2
-2019-02-25 14:19:05.299 WARN  (qtp959447386-13) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field cuttingRestriction is Points-based.
-2019-02-25 14:19:05.303 WARN  (qtp959447386-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field fertilityClass is Points-based.
-2019-02-25 14:19:05.313 INFO  (qtp959447386-13) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=cuttingRestriction&f.cuttingRestriction.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=33
-2019-02-25 14:19:05.313 INFO  (qtp959447386-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=fertilityClass&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&f.fertilityClass.facet.sort=count&wt=json&facet=true} hits=122 status=0 QTime=89
-2019-02-25 14:19:05.365 INFO  (qtp959447386-21) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B1YEAR&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z/SECOND&facet.range.end=NOW} hits=122 status=0 QTime=191
-2019-02-25 14:19:05.425 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=250&wt=json} hits=122 status=0 QTime=1
-2019-02-25 14:19:05.546 WARN  (qtp959447386-20) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field soilType is Points-based.
-2019-02-25 14:19:05.546 INFO  (qtp959447386-20) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=soilType&f.soilType.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=1
-2019-02-25 14:19:06.854 INFO  (qtp959447386-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&stats=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&stats.field=id} hits=122 status=0 QTime=10
-2019-02-25 14:19:06.897 INFO  (qtp959447386-21) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B25148DAY&facet.range.other=between&facet.range.hardend=true&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z&facet.range.end=2019-02-25T14:19:05.031Z} hits=122 status=0 QTime=2
-2019-02-25 14:19:06.899 INFO  (qtp959447386-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B25148DAY&facet.range.other=between&facet.range.hardend=true&rows=0&wt=json&facet=true&facet.range.start=1940-04-23T10:38:33.000Z&facet.range.end=2009-02-27T14:19:05.031Z} hits=122 status=0 QTime=2
-2019-02-25 14:19:07.531 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanDiameter is Points-based.
-2019-02-25 14:19:07.535 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.536 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.537 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.538 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.539 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.539 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.540 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.541 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.541 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.542 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.543 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.543 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.544 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.544 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.545 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.546 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.547 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.548 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.549 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.549 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.550 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.551 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.552 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.552 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.553 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.553 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.554 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.555 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.555 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.556 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.556 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.556 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.557 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.557 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.558 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.558 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.559 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.559 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.560 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.560 WARN  (qtp959447386-18) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field meanHeight is Points-based.
-2019-02-25 14:19:07.560 INFO  (qtp959447386-18) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=40&facet.pivot=meanDiameter,meanHeight&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.pivot.mincount=0} hits=122 status=0 QTime=32
-2019-02-25 14:19:07.621 INFO  (qtp959447386-13) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fl=fertilityClass,soilType&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=1000&wt=csv} hits=122 status=0 QTime=2
+2018-04-21 23:59:40.748 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2018-04-21 23:59:41.477 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.2.1
+2018-04-21 23:59:41.477 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-04-21 23:59:41.477 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1
+2018-04-21 23:59:41.495 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-04-21T23:59:41.479Z
+2018-04-21 23:59:41.528 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-04-21 23:59:41.547 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr
+2018-04-21 23:59:41.554 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\solr.xml
+2018-04-21 23:59:42.068 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr
+2018-04-21 23:59:42.069 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [banana-int, forest-new, forestdata]
+2018-04-21 23:59:42.074 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-04-21 23:59:42.184 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrResourceLoader [forest-new] Added 53 libs to classloader, from paths: [/C:/Users/hp/Desktop/street-hack/solr-7.2.1/solr-7.2.1/contrib/clustering/lib, /C:/Users/hp/Desktop/street-hack/solr-7.2.1/solr-7.2.1/contrib/extraction/lib, /C:/Users/hp/Desktop/street-hack/solr-7.2.1/solr-7.2.1/contrib/langid/lib, /C:/Users/hp/Desktop/street-hack/solr-7.2.1/solr-7.2.1/contrib/velocity/lib, /C:/Users/hp/Desktop/street-hack/solr-7.2.1/solr-7.2.1/dist]
+2018-04-21 23:59:42.191 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrResourceLoader [forestdata] Added 53 libs to classloader, from paths: [/C:/Users/hp/Desktop/street-hack/solr-7.2.1/solr-7.2.1/contrib/clustering/lib, /C:/Users/hp/Desktop/street-hack/solr-7.2.1/solr-7.2.1/contrib/extraction/lib, /C:/Users/hp/Desktop/street-hack/solr-7.2.1/solr-7.2.1/contrib/langid/lib, /C:/Users/hp/Desktop/street-hack/solr-7.2.1/solr-7.2.1/contrib/velocity/lib, /C:/Users/hp/Desktop/street-hack/solr-7.2.1/solr-7.2.1/dist]
+2018-04-21 23:59:42.201 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-04-21 23:59:42.203 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
+2018-04-21 23:59:42.371 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema [banana-int] Schema name=banana-int
+2018-04-21 23:59:42.406 WARN  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieLongField]. Please consult documentation how to replace it accordingly.
+2018-04-21 23:59:42.459 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.IndexSchema Loaded schema banana-int/1.5 with uniqueid field id
+2018-04-21 23:59:42.460 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.CoreContainer Creating SolrCore 'banana-int' using configuration from instancedir C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\banana-int, trusted=true
+2018-04-21 23:59:42.491 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
+2018-04-21 23:59:42.520 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
+2018-04-21 23:59:42.524 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-04-21 23:59:42.531 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.c.SolrCore [[banana-int] ] Opening new SolrCore at [C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\banana-int], dataDir=[C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\banana-int\data\]
+2018-04-21 23:59:42.665 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema [forest-new] Schema name=default-config
+2018-04-21 23:59:42.675 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema [forestdata] Schema name=default-config
+2018-04-21 23:59:43.086 INFO  (main) [   ] o.e.j.s.Server Started @3237ms
+2018-04-21 23:59:43.213 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-04-21 23:59:43.213 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-04-21 23:59:43.247 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-04-21 23:59:43.248 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-04-21 23:59:43.456 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.s.SolrIndexSearcher Opening [Searcher@482c2146[banana-int] main]
+2018-04-21 23:59:43.467 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\banana-int\conf
+2018-04-21 23:59:43.479 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-04-21 23:59:43.481 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-04-21 23:59:43.543 INFO  (coreLoadExecutor-6-thread-1) [   x:banana-int] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-04-21 23:59:43.546 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.CoreContainer Creating SolrCore 'forestdata' using configuration from instancedir C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\forestdata, trusted=true
+2018-04-21 23:59:43.546 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-04-21 23:59:43.546 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.c.SolrCore [[forestdata] ] Opening new SolrCore at [C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\forestdata], dataDir=[C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\forestdata\data\]
+2018-04-21 23:59:43.582 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.CoreContainer Creating SolrCore 'forest-new' using configuration from instancedir C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\forest-new, trusted=true
+2018-04-21 23:59:43.582 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-04-21 23:59:43.582 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.c.SolrCore [[forest-new] ] Opening new SolrCore at [C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\forest-new], dataDir=[C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\forest-new\data\]
+2018-04-21 23:59:43.598 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-04-21 23:59:43.634 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-04-21 23:59:43.708 INFO  (searcherExecutor-7-thread-1-processing-x:banana-int) [   x:banana-int] o.a.s.c.SolrCore [banana-int] Registered new searcher Searcher@482c2146[banana-int] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_g(7.2.1):C1)))}
+2018-04-21 23:59:43.791 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-04-21 23:59:43.792 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-04-21 23:59:43.794 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-04-21 23:59:43.795 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-04-21 23:59:43.812 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-04-21 23:59:43.813 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-04-21 23:59:43.817 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-04-21 23:59:43.817 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-04-21 23:59:43.863 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.SolrIndexSearcher Opening [Searcher@5d0f7795[forest-new] main]
+2018-04-21 23:59:43.864 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\forest-new\conf
+2018-04-21 23:59:43.865 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-04-21 23:59:43.873 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-04-21 23:59:43.884 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.SolrIndexSearcher Opening [Searcher@78d854d7[forestdata] main]
+2018-04-21 23:59:43.885 INFO  (coreLoadExecutor-6-thread-2) [   x:forest-new] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-04-21 23:59:43.888 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5d0f7795[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
+2018-04-21 23:59:43.888 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-04-21 23:59:43.888 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-04-21 23:59:43.888 INFO  (searcherExecutor-13-thread-1-processing-x:forest-new) [   x:forest-new] o.a.s.c.SolrCore [forest-new] Registered new searcher Searcher@5d0f7795[forest-new] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C144)))}
+2018-04-21 23:59:43.895 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\hp\Desktop\street-hack\solr-7.2.1\solr-7.2.1\server\solr\forestdata\conf
+2018-04-21 23:59:43.895 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-04-21 23:59:43.896 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-04-21 23:59:43.897 INFO  (coreLoadExecutor-6-thread-3) [   x:forestdata] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-04-21 23:59:43.897 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@78d854d7[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
+2018-04-21 23:59:43.897 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-04-21 23:59:43.897 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-04-21 23:59:43.897 INFO  (searcherExecutor-12-thread-1-processing-x:forestdata) [   x:forestdata] o.a.s.c.SolrCore [forestdata] Registered new searcher Searcher@78d854d7[forestdata] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.2.1):C122)))}
+2018-04-21 23:59:47.924 INFO  (qtp761960786-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=26
+2018-04-21 23:59:54.427 INFO  (qtp761960786-21) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/select params={q=title:"Forest+Data+Analytics"&wt=json} hits=1 status=0 QTime=33
+2018-04-21 23:59:54.507 INFO  (qtp761960786-13) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=6
+2018-04-21 23:59:55.329 INFO  (qtp761960786-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=4
+2018-04-21 23:59:55.359 INFO  (qtp761960786-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=2
+2018-04-21 23:59:55.498 WARN  (qtp761960786-19) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field fertilityClass is Points-based.
+2018-04-21 23:59:55.506 INFO  (qtp761960786-19) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=fertilityClass&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&f.fertilityClass.facet.sort=count&wt=json&facet=true} hits=122 status=0 QTime=48
+2018-04-21 23:59:55.532 WARN  (qtp761960786-16) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field cuttingRestriction is Points-based.
+2018-04-21 23:59:55.533 INFO  (qtp761960786-16) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=cuttingRestriction&f.cuttingRestriction.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=3
+2018-04-21 23:59:55.586 INFO  (qtp761960786-14) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=300&wt=json} hits=122 status=0 QTime=1
+2018-04-21 23:59:56.801 INFO  (qtp761960786-21) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&stats=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&stats.field=id} hits=122 status=0 QTime=9
+2018-04-21 23:59:56.959 INFO  (qtp761960786-13) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B1YEAR&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z/SECOND&facet.range.end=NOW} hits=122 status=0 QTime=37
+2018-04-21 23:59:56.999 INFO  (qtp761960786-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fl=fertilityClass,soilType&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=1000&wt=csv} hits=122 status=0 QTime=2
+2018-04-22 00:00:32.036 INFO  (qtp761960786-22) [   x:banana-int] o.a.s.c.S.Request [banana-int]  webapp=/solr path=/select params={q=title:"Forest+Data+Analytics"&wt=json} hits=1 status=0 QTime=0
+2018-04-22 00:00:32.134 INFO  (qtp761960786-14) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1
+2018-04-22 00:00:33.083 INFO  (qtp761960786-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=4
+2018-04-22 00:00:33.113 INFO  (qtp761960786-13) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1
+2018-04-22 00:00:33.170 WARN  (qtp761960786-15) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field fertilityClass is Points-based.
+2018-04-22 00:00:33.170 INFO  (qtp761960786-15) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=fertilityClass&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&f.fertilityClass.facet.sort=count&wt=json&facet=true} hits=122 status=0 QTime=1
+2018-04-22 00:00:33.219 WARN  (qtp761960786-22) [   x:forestdata] o.a.s.r.SimpleFacets Raising facet.mincount from 0 to 1, because field cuttingRestriction is Points-based.
+2018-04-22 00:00:33.220 INFO  (qtp761960786-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&facet.limit=10&facet.field=cuttingRestriction&f.cuttingRestriction.facet.sort=count&facet.missing=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&wt=json&facet=true} hits=122 status=0 QTime=1
+2018-04-22 00:00:33.299 INFO  (qtp761960786-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=300&wt=json} hits=122 status=0 QTime=0
+2018-04-22 00:00:33.748 INFO  (qtp761960786-19) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&fl=fertilityClass,soilType&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=1000&wt=csv} hits=122 status=0 QTime=0
+2018-04-22 00:00:34.701 INFO  (qtp761960786-18) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={q=*:*&stats=true&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&stats.field=id} hits=122 status=0 QTime=2
+2018-04-22 00:00:34.761 INFO  (qtp761960786-22) [   x:forestdata] o.a.s.c.S.Request [forestdata]  webapp=/solr path=/select params={facet.range=standBasicDataDate&q=*:*&facet.range.gap=%2B1YEAR&fq=standBasicDataDate:[1950-04-21T10:38:33.000Z/SECOND+TO+*]&rows=0&wt=json&facet=true&facet.range.start=1950-04-21T10:38:33.000Z/SECOND&facet.range.end=NOW} hits=122 status=0 QTime=16
+2018-04-22 00:01:10.681 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=514455215
+2018-04-22 00:01:10.681 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-04-22 00:01:10.681 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-04-22 00:01:10.681 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2018-04-22 00:01:10.683 INFO  (coreCloseExecutor-23-thread-2) [   x:forestdata] o.a.s.c.SolrCore [forestdata]  CLOSING SolrCore org.apache.solr.core.SolrCore@4a595e3d
+2018-04-22 00:01:10.683 INFO  (coreCloseExecutor-23-thread-1) [   x:banana-int] o.a.s.c.SolrCore [banana-int]  CLOSING SolrCore org.apache.solr.core.SolrCore@4c9e248d
+2018-04-22 00:01:10.683 INFO  (coreCloseExecutor-23-thread-2) [   x:forestdata] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.forestdata, tag=1247370813
+2018-04-22 00:01:10.683 INFO  (coreCloseExecutor-23-thread-1) [   x:banana-int] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.banana-int, tag=1285432461
+2018-04-22 00:01:10.683 INFO  (coreCloseExecutor-23-thread-3) [   x:forest-new] o.a.s.c.SolrCore [forest-new]  CLOSING SolrCore org.apache.solr.core.SolrCore@55e32490
+2018-04-22 00:01:10.684 INFO  (coreCloseExecutor-23-thread-3) [   x:forest-new] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.forest-new, tag=1440949392

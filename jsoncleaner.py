@@ -22,7 +22,6 @@ def locationGetter(latutm,longutm):
     tmp = latitude + ','+ longitude
     geolocator = Nominatim()
     location = geolocator.reverse(tmp)
-    #print(location.address)
     return location,latitude,longitude
 
 
