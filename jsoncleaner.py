@@ -1,7 +1,7 @@
 # Python Code for parsing json data in files stored in ~\DataSets\ folder.
 # To manually parse a file, add it to ~\DataSets\ folder and edit line - 25.
 # For our purpose we are only picking up few keys from raw json data for 
-# better visualisation. 
+# better visualization. 
 
 
 
