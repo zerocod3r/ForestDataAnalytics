@@ -5,6 +5,7 @@
 * [Introduction](#introduction)
 * [Requirements](#requirements)
 * [How to run](#how-to-run)
+* [Screenshot](#screenshots)
 
 
 ### <a name="team-members"></a>Team Members
@@ -22,7 +23,7 @@ Ground Assist uses a number of open source projects to work properly.
  - [Banana](https://github.com/lucidworks/banana) - A port of Kibana for Apache Solr
  - [Python3](https://www.python.org/downloads/) - libraries required BeautifulSoup, geopy, django == 2.1 or later
 
-
+tt
 ### <a name="how-to-run"></a>How to run
 Ground Assist requires [Python3](https://www.python.org/downloads/) to run.
 
@@ -49,4 +50,8 @@ Visit this url to access dashboard
 ```http://localhost:8983/solr/banana/src/index.html#/dashboard/solr/Forest%20Data%20Analytics?server=%2Fsolr%2F```
 
 
-**Free Software, Hell Yeah!**
+### <a name="screenshots"></a>Screenshot
+![alt text](https://raw.githubusercontent.com/zerocod3r/ForestDataAnalytics/master/analytics-ss.jpg)
+
+**Free Software, yeah!**
+
