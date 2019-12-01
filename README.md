@@ -8,7 +8,7 @@
 
 
 ### <a name="team-members"></a>Team Members
-* Deepak Balhara <https://ideepakbalhara.me>
+* Deepak Balhara <https://deepakbalhara.tech>
 * Sarthak Rohilla <https://zerocod3r.github.io>
 
 
